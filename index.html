@@ -1,26 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <title>Vitesse Lite</title>
   <meta name="description" content="Opinionated Vite Starter Template">
-  <script type="module" crossorigin src="/assets/index.a6d0b160.js"></script>
+  <script type="module" crossorigin src="/assets/index.5258f0dc.js"></script>
   <link rel="stylesheet" href="/assets/index.89f588d8.css">
 </head>
+
 <body class="font-sans dark:text-white dark:bg-hex-121212">
   <div id="app"></div>
   <script>
-    (function() {
+    (function () {
       const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
       const setting = localStorage.getItem('color-schema') || 'auto'
       if (setting === 'dark' || (prefersDark && setting !== 'light'))
         document.documentElement.classList.toggle('dark', true)
     })()
   </script>
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-   <script src="https://clay-beta.tiket-bis.com/zero/beta.js"></script>
   
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/ads.js"></script>
 </body>
+
 </html>
